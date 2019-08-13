@@ -41,14 +41,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * "Linear" Data Classification Example
+ * Author: Pascal Chikhi
+ * "Linear" Data Classification Test
  *
  * Based on the data from Jason Baldridge:
  * https://github.com/jasonbaldridge/try-tf/tree/master/simdata
  *
- * @author Josh Patterson
- * @author Alex Black (added plots)
- *
+ * Using Spark + DeepLearning4J Library + Mongo Injection
  */
 public class MLPClassifierLinear {
 
@@ -262,7 +261,7 @@ private static final Logger log = LoggerFactory.getLogger(MLPClassifierLinear.cl
 //        System.out.println(eval2.stats());
       
 
-        System.out.println("****************Example finished********************");
+        System.out.println("****************Test finished********************");
         
 
         //Save the model
